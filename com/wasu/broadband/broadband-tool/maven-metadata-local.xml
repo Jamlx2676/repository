@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.wasu.broadband</groupId>
+  <artifactId>broadband-tool</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20180523070238</lastUpdated>
+  </versioning>
+</metadata>

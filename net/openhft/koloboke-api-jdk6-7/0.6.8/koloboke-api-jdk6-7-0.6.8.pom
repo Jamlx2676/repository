@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.openhft</groupId>
+  <artifactId>koloboke-api-jdk6-7</artifactId>
+  <version>0.6.8</version>
+  <name>Koloboke Collections (API)</name>
+  <description>Carefully designed and efficient extension of the Java Collections Framework with primitive specializations and more, built for Java 6 or 7 (API)</description>
+  <url>https://github.com/OpenHFT/Koloboke</url>
+  <inceptionYear>2013</inceptionYear>
+  <organization>
+    <name>Higher Frequency Trading</name>
+    <url>http://openhft.net</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>leventov</id>
+      <name>Roman Leventov</name>
+      <email>leventov@ya.ru</email>
+      <url>http://www.leventov.ru</url>
+      <organization>Higher Frequency Trading</organization>
+      <organizationUrl>http://openhft.net</organizationUrl>
+      <timezone>+4</timezone>
+    </developer>
+  </developers>
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/OpenHFT/Koloboke/issues</url>
+  </issueManagement>
+  <scm>
+    <connection>scm:git:git://github.com/OpenHFT/Koloboke</connection>
+    <developerConnection>scm:git:git://github.com/OpenHFT/Koloboke</developerConnection>
+    <url>https://github.com/OpenHFT/Koloboke</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.findbugs</groupId>
+      <artifactId>jsr305</artifactId>
+      <version>2.0.3</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.auto.value</groupId>
+      <artifactId>auto-value</artifactId>
+      <version>1.0-rc1</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+</project>

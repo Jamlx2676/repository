@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.pcap4j</groupId>
+  <artifactId>pcap4j-packetfactory-static</artifactId>
+  <version>2.0.0-alpha</version>
+  <name>Pcap4J Static Packet Factory</name>
+  <description>Static Packet Factory.</description>
+  <url>https://github.com/kaitoy/pcap4j</url>
+  <inceptionYear>2011</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/kaitoy/pcap4j/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kaitoy</id>
+      <name>Kaito Yamada</name>
+      <email>kaitoy@pcap4j.org</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:kaitoy/pcap4j.git</connection>
+    <developerConnection>scm:git:git@github.com:kaitoy/pcap4j.git</developerConnection>
+    <url>https://github.com/kaitoy/pcap4j.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <version>1.0.0</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.10</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-core</artifactId>
+      <version>1.0.0</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.pcap4j</groupId>
+      <artifactId>pcap4j-core</artifactId>
+      <version>2.0.0-alpha</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

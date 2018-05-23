@@ -1,0 +1,78 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+	<parent>		
+		<groupId>com.wasu.broadband</groupId>
+		<artifactId>broadband</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+
+    <groupId>com.wasu.broadband</groupId>
+	<artifactId>broadband-tool</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>broadband-tool</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <broadband-tool.version>1.0.0-SNAPSHOT</broadband-tool.version>
+    </properties>
+
+    <modules>
+		<module>broadband-tool-common</module>
+		<module>broadband-tool-zk</module>
+        <module>broadband-tool-excel</module>
+		<module>broadband-tool-es</module>
+		<module>broadband-tool-pcap</module>
+		<module>broadband-tool-ping</module>
+		<module>broadband-tool-boss</module>
+		<module>broadband-tool-spark</module>
+    </modules>
+
+	<dependencyManagement>
+        <dependencies>
+			<dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>broadband-tool-common</artifactId>
+                <version>${broadband-tool.version}</version>
+            </dependency>
+			<dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>broadband-tool-zk</artifactId>
+                <version>${broadband-tool.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>broadband-tool-excel</artifactId>
+                <version>${broadband-tool.version}</version>
+            </dependency>
+			<dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>broadband-tool-es</artifactId>
+                <version>${broadband-tool.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>broadband-tool-pcap</artifactId>
+                <version>${broadband-tool.version}</version>
+            </dependency>
+			<dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>broadband-tool-ping</artifactId>
+                <version>${broadband-tool.version}</version>
+            </dependency>
+			<dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>broadband-tool-boss</artifactId>
+                <version>${broadband-tool.version}</version>
+            </dependency>
+			<dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>broadband-tool-spark</artifactId>
+                <version>${broadband-tool.version}</version>
+            </dependency>
+        </dependencies>
+	</dependencyManagement>
+</project>
